@@ -381,10 +381,15 @@ hr {
 
 .cards > div > .phead {
     grid-area: phead;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .cards > div > .pcontent {
     grid-area: pbody;
+    color: grey;
+    font-weight: 500;
 }
 
 .card > div > .logos {
