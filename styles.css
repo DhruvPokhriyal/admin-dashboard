@@ -405,3 +405,10 @@ hr {
     border-bottom-left-radius: 10px;
     background-color: #f0b429;
 }
+
+.cards > div > .logos {
+    justify-self: end;
+    align-self: self-end;
+    display: flex;
+    gap: 20px;
+}
