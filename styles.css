@@ -368,4 +368,22 @@ hr {
     padding: 20px;
     border-radius: 10px;
     height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+        "phead"
+        "pbody"
+        "icons";
+}
+
+.cards > div > .phead {
+    grid-area: phead;
+}
+
+.cards > div > .pcontent {
+    grid-area: pbody;
+}
+
+.card > div > .logos {
+    grid-area: icons;
 }
