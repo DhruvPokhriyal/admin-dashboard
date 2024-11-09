@@ -238,4 +238,20 @@ body {
 
 .name-id {
     font-weight: bold;
+    font-size: 30px;
+}
+
+.headbuttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headbuttons button {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 110px;
+    background-color: #1992d4;
+    color: white;
+    font-weight: bold;
 }
