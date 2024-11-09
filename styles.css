@@ -278,3 +278,8 @@ body {
 .main .trending {
     grid-area: trending;
 }
+
+.heading {
+    font-weight: 500;
+    font-size: 20px;
+}
