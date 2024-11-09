@@ -412,3 +412,7 @@ hr {
     display: flex;
     gap: 20px;
 }
+
+.plink svg {
+    transform: rotate(270deg);
+}
