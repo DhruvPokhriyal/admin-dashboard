@@ -75,15 +75,24 @@ h6 {
 
 body {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
     grid-template-areas:
-        "sidebar header header"
-        "sidebar main main";
+        "sidebar header"
+        "sidebar main";
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .sidebar {
     grid-area: sidebar;
+    background-color: #1992d4;
+    color: white;
+}
+
+.sidebar svg * {
+    fill: white;
 }
 
 .header {
