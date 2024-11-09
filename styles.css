@@ -283,12 +283,14 @@ body {
 .heading {
     font-weight: 500;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .anc-content {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    height: 90%;
 }
 
 .a-head {
@@ -298,6 +300,10 @@ body {
 .a-body {
     color: grey;
     font-weight: 500;
+}
+
+.anc-content > div {
+    padding-bottom: 20px;
 }
 
 hr {
