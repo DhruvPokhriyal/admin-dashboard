@@ -304,3 +304,44 @@ hr {
     margin-bottom: 20px;
     border: 1px solid #e2e8f0;
 }
+
+.trend-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    gap: 8px;
+}
+
+.trend-content > * {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "logo id ."
+        "logo motive .";
+}
+
+.trend-content .t-logo {
+    grid-area: logo;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trend-content .t-head {
+    grid-area: id;
+    padding-left: 20px;
+}
+
+.trend-content .t-motive {
+    grid-area: motive;
+    padding-left: 20px;
+}
+
+.trend-content .t-logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 100% 0px;
+}
