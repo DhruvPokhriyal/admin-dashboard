@@ -16,7 +16,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    height: 100vh;
+    height: 100%;
 }
 
 img,
@@ -265,6 +265,7 @@ body {
     grid-template-areas:
         "projects announcements"
         "projects trending";
+    gap: 30px;
 }
 
 .main .projects {
@@ -344,4 +345,21 @@ hr {
     border-radius: 50%;
     object-fit: cover;
     object-position: 100% 0px;
+}
+
+.projects {
+    display: grid;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.cards > div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
 }
