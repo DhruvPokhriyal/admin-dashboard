@@ -220,12 +220,13 @@ body {
 
 .uinfo > .userlogo {
     grid-area: logo;
-    justify-self: end;
+    justify-self: start;
     padding-right: 20px;
 }
 
 .uinfo > .user-msg {
     grid-area: msg;
+    margin-left: -140px;
 }
 
 .uinfo > .headbuttons {
