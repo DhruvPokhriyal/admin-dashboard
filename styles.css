@@ -60,3 +60,15 @@ h6 {
 #__next {
     isolation: isolate;
 }
+
+.logo svg {
+    height: 20px;
+}
+
+.userlogo {
+    height: 100px;
+}
+
+.userlogo img {
+    height: 100px;
+}
