@@ -255,3 +255,25 @@ body {
     color: white;
     font-weight: bold;
 }
+
+.main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "projects announcements"
+        "projects trending";
+}
+
+.main .projects {
+    grid-area: projects;
+}
+
+.main .announcements {
+    grid-area: announcements;
+}
+
+.main .trending {
+    grid-area: trending;
+}
