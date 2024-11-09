@@ -65,11 +65,6 @@ h6 {
     height: 20px;
 }
 
-.userlogo {
-    width: 60px;
-    height: 60px;
-}
-
 .userlogo img {
     height: 60px;
     width: 60px;
@@ -184,7 +179,7 @@ body {
     grid-area: right;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: -20px;
+    margin-left: -25px;
 }
 
 .search input {
@@ -211,4 +206,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
 }
