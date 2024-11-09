@@ -283,3 +283,24 @@ body {
     font-weight: 500;
     font-size: 20px;
 }
+
+.anc-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.a-head {
+    font-weight: 500;
+}
+
+.a-body {
+    color: grey;
+    font-weight: 500;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+}
