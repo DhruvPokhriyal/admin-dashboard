@@ -410,7 +410,11 @@ hr {
     justify-self: end;
     align-self: self-end;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+}
+
+.cards svg {
+    height: 25px;
 }
 
 .plink svg {
