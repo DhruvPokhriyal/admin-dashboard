@@ -72,3 +72,24 @@ h6 {
 .userlogo img {
     height: 100px;
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+        "sidebar header header"
+        "sidebar main main";
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
