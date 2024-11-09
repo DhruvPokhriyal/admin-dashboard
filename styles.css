@@ -73,6 +73,11 @@ h6 {
     height: 100px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 5fr;
